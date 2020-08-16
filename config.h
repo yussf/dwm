@@ -161,6 +161,7 @@ static Key keys[] = {
 	{ MODKEY,			XK_z,		incrgaps,	{.i = +3 } },
 	{ MODKEY,			XK_x,		incrgaps,	{.i = -3 } },
 	{ MODKEY,			XK_b,		togglebar,	{0} },
+	{ MODKEY,			XK_twosuperior,	spawn,		SHCMD("switchtheme") },
 	{ MODKEY,			XK_Left,	focusmon,	{.i = -1 } },
 	{ MODKEY|ShiftMask,		XK_Left,	tagmon,		{.i = -1 } },
 	{ MODKEY,			XK_Right,	focusmon,	{.i = +1 } },
